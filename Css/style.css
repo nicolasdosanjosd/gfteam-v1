@@ -1,0 +1,227 @@
+/* geral */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+html{
+   
+}
+
+body{
+    background-color: #ddd;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.container{
+   
+}
+
+/* header */
+ .container-header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(000, 000, 000, 0.8);
+    padding: 10px;
+    box-shadow: 0px 5px 5px 3px #000;
+    position: sticky;
+ }
+
+ .container-header a {
+    border-bottom: 1px solid #fff;
+    padding: 0px 10px;
+    margin-right: 100px;
+    color: #ddd;
+    text-shadow: 4px 4px 4px #000;
+    transition: 0.5s;
+ }
+
+ .container-header a:hover{
+    font-size: 20px;
+ }
+
+ .container-header img{
+    margin-left: 100px;
+    transition: 0.5s;
+ }
+
+ .container-header img:hover{
+    scale: 1.1;
+ }
+/* main */
+.main-text{
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/Img/WhatsApp\ Image\ 2024-02-29\ at\ 18.22.55\ \(1\).jpeg);
+}
+
+.main-text h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 6px 6px  4px#000;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+.main-text h1 a{
+    color: yellow;
+    transition: 0.5s;
+}
+
+.main-text h1 a:hover:hover{
+    font-size: 75px;
+}
+
+.main-text h3{
+    font-size: 35px;
+    opacity: 0.7;
+    color: green;
+    text-shadow: 6px 6px 4px #000;
+}
+
+.text-nos{
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0px 5px 5px 6px #000;
+}
+
+.text-nos h2{
+    margin-top: 80px;
+    font-size: 40px;
+    text-shadow: 3px 3px 4px #000;
+    transition: 0.5s;
+    padding: 30px;
+}
+
+.text-nos h2 a{
+    color: #fff;
+}
+
+.text-nos h2:hover{
+    font-size: 45px;
+}
+
+
+.text-nos .img{
+    width: 70px;
+    height: 60px;
+}
+.text-nos p{
+    margin: 10px 10px;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.text-nos .nos-text{
+    display: grid;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.-text-nos .nos-text p{
+    
+}
+
+.text-nos .nos-img{
+    display: grid;
+    margin: 25px;
+}
+
+.text-nos .nos-img img{
+    border-radius: 20px;
+}
+/* footer */
+.text-contatc{
+    background-color: #444;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 20px;
+    box-shadow: 0px 5px 5px 6px #000;
+}
+
+.text-contatc h3{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px #000;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-bottom: 1px solid #fff;
+}
+
+input{
+    background-color: #555;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+input:hover{
+    background-color: #444;
+}
+
+input[type="submit"]{
+    background-color: rgb(167, 19, 19);
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover{
+    scale: 1.2;
+}
+
+.final-foooter{
+    width: 98vw;
+    padding: 10px;
+    padding-left: 80px;
+    margin: 10px;
+    display: inline-block;
+    justify-content: left;
+    align-items: center;
+}
+
+.final-foooter p{
+    font-style: italic;
+}
+
+.final-foooter .gfteam{
+    font-size: 25px;
+    color: #ddd;
+    text-transform: uppercase;
+}
